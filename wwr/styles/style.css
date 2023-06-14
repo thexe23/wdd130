@@ -234,6 +234,9 @@ h4 {
   grid-row: 1/6;
   background-color: var(--accent2-color);
   text-align: center;
+  border: 2px solid #0d1b2a;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #0d1b2a;
 }
 .rate-card-2 {
   width: 100%;
@@ -242,6 +245,9 @@ h4 {
   grid-row: 1/6;
   background-color: var(--accent2-color);
   text-align: center;
+  border: 2px solid #0d1b2a;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #0d1b2a;
 }
 .rate-card-3 {
   width: 100%;
@@ -250,6 +256,9 @@ h4 {
   grid-row: 1/6;
   background-color: var(--accent2-color);
   text-align: center;
+  border: 2px solid #0d1b2a;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #0d1b2a;
 }
 
 .price {
@@ -260,6 +269,10 @@ h4 {
 .dates {
   text-align: left;
   font-size: 18px;
+}
+
+.rates-img {
+  width: 200px;
 }
 
 .bottom-btn {
