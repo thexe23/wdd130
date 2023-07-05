@@ -173,7 +173,7 @@ nav a:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container {
+.contact-container {
   padding: 2px 16px;
 }
 
@@ -183,7 +183,7 @@ nav a:hover {
   height: 80vh;
 }
 
-.contacts-title {
+.subpage-title {
   font-family: var(--heading-font);
   font-size: 40px;
   margin-top: 0;
@@ -221,6 +221,66 @@ nav a:hover {
   width: 100%;
 }
 
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+#projects-container {
+  background-color: var(--accent1-color);
+  text-align: center;
+}
+
+.project-section {
+  text-align: left;
+}
+
+.project-section-title {
+  font-family: var(--heading-font);
+  font-size: 30px;
+  padding-left: 2%;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: 300px auto;
+  padding-left: 5%;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  line-height: 0.5;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.vue {
+  width: 50%;
+  background-color: #04aa6d;
+}
+.ts {
+  width: 50%;
+  background-color: #dcd210;
+}
+.golang {
+  width: 50%;
+  background-color: #2196f3;
+}
+.angular {
+  width: 25%;
+  background-color: #f44336;
+}
+.ts-2 {
+  width: 25%;
+  background-color: #dcd210;
+}
+
 footer {
   color: var(--accent1-color);
   font-family: Ysabeau, Helvetica, sans-serif;
@@ -252,6 +312,9 @@ footer p a:hover {
     height: auto;
   }
   .contacts-grid {
+    display: block;
+  }
+  .project-container {
     display: block;
   }
   .contacts-content {
