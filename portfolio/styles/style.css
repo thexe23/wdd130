@@ -162,6 +162,65 @@ nav a:hover {
   width: 50%;
 }
 
+.card {
+  transition: 0.3s;
+  width: 40%;
+  text-align: center;
+  background-color: var(--accent1-color);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.contacts-content {
+  background-color: var(--accent1-color);
+  text-align: center;
+  height: 80vh;
+}
+
+.contacts-title {
+  font-family: var(--heading-font);
+  font-size: 40px;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.contacts-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.contacts-icon {
+  padding: 20px;
+  width: 100px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: gray;
+}
+
+#github {
+  grid-column: 2/4;
+  grid-row: 1/6;
+  width: 100%;
+}
+#linkedin {
+  grid-column: 5/7;
+  grid-row: 1/6;
+  width: 100%;
+}
+#gmail {
+  grid-column: 8/10;
+  grid-row: 1/6;
+  width: 100%;
+}
+
 footer {
   color: var(--accent1-color);
   font-family: Ysabeau, Helvetica, sans-serif;
@@ -190,6 +249,12 @@ footer p a:hover {
 @media screen and (max-width: 900px) {
   #hero {
     display: block;
+    height: auto;
+  }
+  .contacts-grid {
+    display: block;
+  }
+  .contacts-content {
     height: auto;
   }
   #hero-msg h1 {
