@@ -32,6 +32,11 @@ body {
   background-color: var(--primary-color);
 }
 
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 header {
   display: grid;
   grid-template-columns: 150px auto;
